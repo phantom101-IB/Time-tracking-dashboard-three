@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet", href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="main_container">
+    
+    <div class="first_main">
+      <div class="main_profile">
+        <img src="/../images/image-jeremy.png">
+        <div class="media-1">
+          <p>Report for</p>
+          <div class="media-1-0">
+            <h3>Jeremy</h3>
+            <h3>Robson</h3>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="daily-weekly">
+        <div class="dd-ww">
+          <p class="daily-control active">Daily</p>
+          <p class="weekly-control">Weekly</p>
+          <p class="monthly-control">Monthly</p>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="second_main">
+      <div class="top-row rows">
+        <div class="main_work common">
+          <div class="work_back back-divs">
+            <img src="/../images/icon-work.svg">
+          </div>
+          <div class="work_self front-divs">
+            <div class="front-text">
+              <h4>Work</h4>
+              <img src="/../images/icon-ellipsis.svg">
+            </div>
+            <div class="hours-display weekly">
+              <h2>32hrs</h2>
+              <p>Last Week - 36hrs</p>
+            </div>
+            <div class="hours-display daily active">
+              <h2>5hrs</h2>
+              <p>Yestersay - 7hrs</p>
+            </div>
+            <div class="hours-display monthly">
+              <h2>103hrs</h2>
+              <p>Last Month - 128hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="main_play common">
+          <div class="play_back back-divs">
+            <img src="/../images/icon-play.svg">
+          </div>
+          <div class="play_self front-divs">
+            <div class="front-text">
+              <h4>Play</h4>
+              <img src="/../images/icon-ellipsis.svg">
+            </div>
+            <div class="hours-display weekly">
+              <h2>10hrs</h2>
+              <p>Last Week - 8hrs</p>
+            </div>
+            <div class="hours-display daily active">
+              <h2>1hr</h2>
+              <p>Yestersay - 2hrs</p>
+            </div>
+            <div class="hours-display monthly">
+              <h2>23hrs</h2>
+              <p>Last Month - 29hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="main_study common">
+          <div class="study_back back-divs">
+            <img src="/../images/icon-study.svg">
+          </div>
+          <div class="study_self front-divs">
+            <div class="front-text">
+              <h4>Study</h4>
+              <img src="/../images/icon-ellipsis.svg">
+            </div>
+            <div class="hours-display weekly">
+              <h2>4hrs</h2>
+              <p>Last Week - 7hrs</p>
+            </div>
+            <div class="hours-display daily active">
+              <h2>0hrs</h2>
+              <p>Yestersay - 1hrs</p>
+            </div>
+            <div class="hours-display monthly">
+              <h2>13hrs</h2>
+              <p>Last Month - 19hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-row rows">
+        <div class="main_exercise common">
+          <div class="exercise_back back-divs">
+            <img src="/../images/icon-exercise.svg">
+          </div>
+          <div class="exercise_self front-divs">
+            <div class="front-text">
+              <h4>Exercise</h4>
+              <img src="/../images/icon-ellipsis.svg">
+            </div>
+            <div class="hours-display weekly">
+              <h2>4hrs</h2>
+              <p>Last Week - 5hrs</p>
+            </div>
+            <div class="hours-display daily active">
+              <h2>1hr</h2>
+              <p>Yestersay - 1hr</p>
+            </div>
+            <div class="hours-display monthly">
+              <h2>11hrs</h2>
+              <p>Last Month - 18hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="main_social common">
+          <div class="social_back back-divs">
+            <img src="/../images/icon-social.svg">
+          </div>
+          <div class="social_self front-divs">
+            <div class="front-text">
+              <h4>Social</h4>
+              <img src="/../images/icon-ellipsis.svg">
+            </div>
+            <div class="hours-display weekly">
+              <h2>5hrs</h2>
+              <p>Last Week - 10hrs</p>
+            </div>
+            <div class="hours-display daily active">
+              <h2>1hrs</h2>
+              <p>Yestersay - 3hrs</p>
+            </div>
+            <div class="hours-display monthly">
+              <h2>21hrs</h2>
+              <p>Last Month - 23hrs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="main_self-care common">
+          <div class="self-care_back back-divs">
+            <img src="/../images/icon-self-care.svg">
+          </div>
+          <div class="self-care_self front-divs">
+            <div class="front-text">
+              <h4>Self-care</h4>
+              <img src="/../images/icon-ellipsis.svg">
+            </div>
+            <div class="hours-display weekly">
+              <h2>2hrs</h2>
+              <p>Last Week - 2hrs</p>
+            </div>
+            <div class="hours-display daily active">
+              <h2>0hrs</h2>
+              <p>Yestersay - 1hr</p>
+            </div>
+            <div class="hours-display monthly">
+              <h2>7hrs</h2>
+              <p>Last Month - 11hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+  <script src="index.js"></script>
+
+</body>
+</html>
